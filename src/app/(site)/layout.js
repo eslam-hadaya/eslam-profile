@@ -68,7 +68,7 @@ export const metadata = {
     "مبرمج في حلب",
   ],
 
-  authors: [{ name: "Islam Hadaya", url: "https://github.com/eslam-cmd" }],
+  authors: [{ name: "Islam Hadaya", url: "https://github.com/eslam-hadaya" }],
   creator: "Islam Hadaya",
   publisher: "Islam Hadaya",
   formatDetection: {
@@ -137,7 +137,7 @@ const jsonLd = {
         "Full-Stack Software Developer specialized in building SaaS platforms, REST APIs, and web applications using Next.js, NestJS, Laravel, Node.js, and PostgreSQL.",
       url: siteUrl,
       sameAs: [
-        "https://github.com/eslam-cmd",
+        "https://github.com/eslam-hadaya",
         "https://www.linkedin.com/in/eslam-hd-60a056357",
         "https://www.facebook.com/islam.hadaya.2025",
         "https://x.com/eslam_hadaya",

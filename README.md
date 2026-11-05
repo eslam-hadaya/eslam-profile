@@ -17,14 +17,14 @@
 Production-ready security audit platform that runs non-invasive web scans (SSL/TLS, HTTP Security Headers, CORS, and Cookie flags)[cite: 1]. Integrated with AI-driven remediation to provide contextual fix instructions and code snippets. Features a tiered licensing engine (Free / Pro / Extra) with background processing and admin analytics.
 
 **Stack:** Next.js 15 · TypeScript · NestJS · Prisma · PostgreSQL · Redis · Google Gemini API  
-**Links:** [Live Demo](https://scan-lens-client.vercel.app) · [Source Code](https://github.com/eslam-cmd/scan-lens-client)
+**Links:** [Live Demo](https://scan-lens-client.vercel.app) · [Source Code](https://github.com/eslam-hadaya/scan-lens-client)
 
 ### 2. EduPlatform — Student Administration System
 
 Full-stack school management platform built with strict Role-Based Access Control (RBAC). Provides teachers with dynamic grade entries, exam creation, and interactive data visualizations (Bar/Pie/Area charts). Features a secure student portal protected by 2FA (Email OTP), brute-force rate limiting, and HTTP-only cookies.
 
 **Stack:** Next.js 14 · Material-UI · Recharts · Express 5 · PostgreSQL · JWT
-**Links:** [Live Demo](https://e-school-client.vercel.app) · [Source Code](https://github.com/eslam-cmd/e-school-client)
+**Links:** [Live Demo](https://e-school-client.vercel.app) · [Source Code](https://github.com/eslam-hadaya/e-school-client)
 
 ---
 
@@ -34,7 +34,8 @@ Full-stack school management platform built with strict Role-Based Access Contro
 **Backend:** Node.js · NestJS · Express.js · RESTful APIs · Background Jobs (Redis)
 **Databases & ORM:** PostgreSQL · Prisma · TypeORM · Supabase  
 **Security & Architecture:** RBAC · JWT (Access & Refresh Tokens) · 2FA (OTP) · Rate Limiting · System Design
-**DevOps & Tools:** Docker · Git · GitHub 
+**DevOps & Tools:** Docker · Git · GitHub
+
 ---
 
 ## 🎯 About Me
@@ -50,4 +51,4 @@ Full-stack school management platform built with strict Role-Based Access Contro
 
 - **Email:** [hdayaaslam34@gmail.com](mailto:hdayaaslam34@gmail.com)
 - **LinkedIn:** [Islam Hadaya](https://www.linkedin.com/in/Islam-hadaya)
-- **GitHub:** [@eslam-cmd](https://github.com/eslam-cmd)
+- **GitHub:** [@eslam-hadaya](https://github.com/eslam-hadaya)

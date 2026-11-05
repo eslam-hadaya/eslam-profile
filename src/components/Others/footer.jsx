@@ -40,9 +40,9 @@ export default function Footer() {
       color: isDark ? "#F5F5F5" : "#0A1F44",
       hoverColor: colors.primary,
     },
-    { 
-      icon: <TwitterIcon sx={{ fontSize: 20 }} />, 
-      link: "https://twitter.com/", 
+    {
+      icon: <TwitterIcon sx={{ fontSize: 20 }} />,
+      link: "https://twitter.com/",
       color: isDark ? "#F5F5F5" : "#0A1F44",
       hoverColor: "#1DA1F2",
     },
@@ -54,7 +54,7 @@ export default function Footer() {
     },
     {
       icon: <GitHubIcon sx={{ fontSize: 20 }} />,
-      link: "https://github.com/eslam-cmd",
+      link: "https://github.com/eslam-hadaya",
       color: isDark ? "#F5F5F5" : "#0A1F44",
       hoverColor: colors.primary,
     },
@@ -75,8 +75,12 @@ export default function Footer() {
         component="footer"
         sx={{
           fontFamily: FONT,
-          "& .MuiTypography-root, & .MuiButton-root, & .MuiChip-root": { fontFamily: FONT },
-          background: isDark ? "rgba(5, 10, 20, 0.7)" : "rgba(255, 255, 255, 0.7)",
+          "& .MuiTypography-root, & .MuiButton-root, & .MuiChip-root": {
+            fontFamily: FONT,
+          },
+          background: isDark
+            ? "rgba(5, 10, 20, 0.7)"
+            : "rgba(255, 255, 255, 0.7)",
           backdropFilter: "blur(20px) saturate(180%)",
           WebkitBackdropFilter: "blur(20px) saturate(180%)",
           borderTop: `1px solid ${colors.border}`,
@@ -127,7 +131,14 @@ export default function Footer() {
               }}
             >
               Building the future, one line of code at a time.
-              <span style={{ display: "block", marginTop: "8px", color: colors.primary, fontWeight: 500 }}>
+              <span
+                style={{
+                  display: "block",
+                  marginTop: "8px",
+                  color: colors.primary,
+                  fontWeight: 500,
+                }}
+              >
                 Software Engineer
               </span>
             </Typography>
@@ -199,7 +210,8 @@ export default function Footer() {
                     bgcolor: colors.tagBg,
                     border: `1px solid ${colors.tagBorder}`,
                     borderRadius: "8px", // حواف مربعة ناعمة
-                    transition: "color 0.25s ease, border-color 0.25s ease, background-color 0.25s ease",
+                    transition:
+                      "color 0.25s ease, border-color 0.25s ease, background-color 0.25s ease",
                     "&:hover": {
                       color: social.hoverColor,
                       bgcolor: alpha(social.hoverColor, 0.1),
@@ -234,7 +246,13 @@ export default function Footer() {
           <Chip
             icon={<CodeIcon sx={{ fontSize: 14, color: colors.primary }} />}
             label={
-              <Typography sx={{ fontSize: "11px", color: colors.textMuted, fontWeight: 500 }}>
+              <Typography
+                sx={{
+                  fontSize: "11px",
+                  color: colors.textMuted,
+                  fontWeight: 500,
+                }}
+              >
                 Designed & Built by Islam Hadaya © 2026
               </Typography>
             }

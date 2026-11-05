@@ -143,7 +143,9 @@ I can help you explore:
     "--hero-code-shadow": darkMode
       ? "0 8px 32px rgba(0,0,0,0.2)"
       : "0 8px 32px rgba(24, 110, 150, 0.05)",
-    "--hero-code-surface": darkMode ? "rgba(255,255,255,0.03)" : "rgba(0,0,0,0.03)",
+    "--hero-code-surface": darkMode
+      ? "rgba(255,255,255,0.03)"
+      : "rgba(0,0,0,0.03)",
     "--hero-download-bg": darkMode ? "#D4AF37" : "#186e96",
     "--hero-download-text": darkMode ? "#050a14" : "#fff",
     "--hero-email-color": darkMode ? "#F5F5F5" : "#0A1F44",
@@ -152,7 +154,9 @@ I can help you explore:
     "--hero-heading-color": darkMode ? "#D4AF37" : "#186e96",
     "--hero-dialog-bg": darkMode ? "#050a14" : "#ffffff",
     "--hero-tag-bg": darkMode ? "rgba(255,255,255,0.03)" : "rgba(0,0,0,0.03)",
-    "--hero-tag-border": darkMode ? "rgba(255,255,255,0.08)" : "rgba(0,0,0,0.08)",
+    "--hero-tag-border": darkMode
+      ? "rgba(255,255,255,0.08)"
+      : "rgba(0,0,0,0.08)",
   };
 
   React.useEffect(() => {
@@ -209,14 +213,15 @@ I can help you explore:
     fontSize: "0.9rem",
     fontWeight: 600,
     textTransform: "none",
-    transition: "background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease",
+    transition:
+      "background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease",
   };
 
   const socials = [
     {
       label: "GitHub",
       icon: <GitHubIcon sx={{ fontSize: 20 }} />,
-      href: "https://github.com/eslam-cmd",
+      href: "https://github.com/eslam-hadaya",
       color: "var(--hero-github-color)",
       hoverColor: darkMode ? "#D4AF37" : "#186e96",
     },
@@ -305,7 +310,7 @@ I can help you explore:
             "radial-gradient(ellipse 70% 60% at 50% 35%, #000 20%, transparent 75%)",
         }}
       />
-      
+
       {/* توهج ناعم جداً */}
       <Box
         sx={{
@@ -353,7 +358,7 @@ I can help you explore:
             width: "100%",
           }}
         >
-    {/* 1. العنوان الرئيسي H1 مع نص مخفي بصرياً غني بالكلمات المفتاحية لجوجل */}
+          {/* 1. العنوان الرئيسي H1 مع نص مخفي بصرياً غني بالكلمات المفتاحية لجوجل */}
           <Typography
             variant="h1"
             sx={{
@@ -427,7 +432,10 @@ I can help you explore:
                 border: 0,
               }}
             >
-              إسلام هدايا (Islam Hadaya) مطور ويب فل ستاك ومهندس برمجيات متخصص في بناء تطبيقات الويب ومنصات SaaS وتصميم REST APIs باستخدام Next.js, NestJS, Laravel, Node.js, React, PostgreSQL, Prisma, وأتمتة الأنظمة.
+              إسلام هدايا (Islam Hadaya) مطور ويب فل ستاك ومهندس برمجيات متخصص
+              في بناء تطبيقات الويب ومنصات SaaS وتصميم REST APIs باستخدام
+              Next.js, NestJS, Laravel, Node.js, React, PostgreSQL, Prisma,
+              وأتمتة الأنظمة.
             </Box>
 
             <TypeAnimation
@@ -529,7 +537,8 @@ I can help you explore:
                   bgcolor: "var(--hero-tag-bg)",
                   border: "1px solid var(--hero-tag-border)",
                   borderRadius: "8px", // حواف ناعمة
-                  transition: "color 0.25s ease, border-color 0.25s ease, background-color 0.25s ease",
+                  transition:
+                    "color 0.25s ease, border-color 0.25s ease, background-color 0.25s ease",
                   "&:hover": {
                     color: s.hoverColor,
                     borderColor: s.hoverColor,
@@ -604,7 +613,12 @@ I can help you explore:
               Islam Hadaya
             </Typography>
             <Typography
-              sx={{ fontSize: "0.9rem", color: "var(--hero-name-color)", fontWeight: 500, mt: 0.5 }}
+              sx={{
+                fontSize: "0.9rem",
+                color: "var(--hero-name-color)",
+                fontWeight: 500,
+                mt: 0.5,
+              }}
             >
               Full-Stack Developer
             </Typography>
@@ -636,7 +650,13 @@ I can help you explore:
                 {["#ff5f57", "#ffbd2e", "#28c840"].map((col) => (
                   <Box
                     key={col}
-                    sx={{ width: 8, height: 8, borderRadius: "50%", bgcolor: col, opacity: 0.7 }}
+                    sx={{
+                      width: 8,
+                      height: 8,
+                      borderRadius: "50%",
+                      bgcolor: col,
+                      opacity: 0.7,
+                    }}
                   />
                 ))}
               </Box>
@@ -652,7 +672,12 @@ I can help you explore:
                 terminal:~ /developer
               </Typography>
               <CodeIcon
-                sx={{ fontSize: 16, color: "var(--hero-code-text)", ml: "auto", opacity: 0.5 }}
+                sx={{
+                  fontSize: 16,
+                  color: "var(--hero-code-text)",
+                  ml: "auto",
+                  opacity: 0.5,
+                }}
               />
             </Box>
 
@@ -684,7 +709,9 @@ I can help you explore:
                     animation: `${typeCursor} 0.8s ease-in-out infinite`,
                     ml: 0.5,
                     verticalAlign: "text-bottom",
-                    "@media (prefers-reduced-motion: reduce)": { animation: "none" },
+                    "@media (prefers-reduced-motion: reduce)": {
+                      animation: "none",
+                    },
                   }}
                 />
               )}
@@ -743,17 +770,28 @@ I can help you explore:
                 justifyContent: "center",
               }}
             >
-              <SmartToyIcon sx={{ fontSize: { xs: 18, sm: 20 }, color: "var(--hero-name-color)" }} />
+              <SmartToyIcon
+                sx={{
+                  fontSize: { xs: 18, sm: 20 },
+                  color: "var(--hero-name-color)",
+                }}
+              />
             </Box>
             <Box>
               <Typography
                 variant="subtitle1"
                 fontWeight={700}
-                sx={{ fontSize: { xs: "0.85rem", sm: "0.95rem" }, lineHeight: 1.2 }}
+                sx={{
+                  fontSize: { xs: "0.85rem", sm: "0.95rem" },
+                  lineHeight: 1.2,
+                }}
               >
                 Islam's AI Assistant
               </Typography>
-              <Typography variant="caption" sx={{ opacity: 0.7, fontSize: "0.7rem" }}>
+              <Typography
+                variant="caption"
+                sx={{ opacity: 0.7, fontSize: "0.7rem" }}
+              >
                 Online
               </Typography>
             </Box>
@@ -761,9 +799,9 @@ I can help you explore:
           <IconButton
             size="small"
             onClick={() => setChatOpen(false)}
-            sx={{ 
+            sx={{
               color: "var(--hero-text-color)",
-              "&:hover": { bgcolor: "var(--hero-code-surface)" }
+              "&:hover": { bgcolor: "var(--hero-code-surface)" },
             }}
           >
             <CloseIcon sx={{ fontSize: 18 }} />
@@ -848,7 +886,11 @@ I can help you explore:
                         remarkPlugins={[remarkGfm]}
                         components={{
                           a: ({ node, ...props }) => (
-                            <a {...props} target="_blank" rel="noopener noreferrer" />
+                            <a
+                              {...props}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            />
                           ),
                         }}
                       >
@@ -875,8 +917,14 @@ I can help you explore:
                   direction: "ltr",
                 }}
               >
-                <CircularProgress size={14} sx={{ color: "var(--hero-name-color)" }} />
-                <Typography variant="caption" sx={{ opacity: 0.8, fontSize: "0.75rem" }}>
+                <CircularProgress
+                  size={14}
+                  sx={{ color: "var(--hero-name-color)" }}
+                />
+                <Typography
+                  variant="caption"
+                  sx={{ opacity: 0.8, fontSize: "0.75rem" }}
+                >
                   Analyzing profile...
                 </Typography>
               </Box>
@@ -915,7 +963,9 @@ I can help you explore:
                   fontSize: "0.85rem",
                   color: "inherit",
                   "& fieldset": { borderColor: "var(--hero-code-border)" },
-                  "&:hover fieldset": { borderColor: "var(--hero-border-color)" },
+                  "&:hover fieldset": {
+                    borderColor: "var(--hero-border-color)",
+                  },
                   "&.Mui-focused fieldset": {
                     borderColor: "var(--hero-border-color)",
                   },

@@ -19,7 +19,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import { usePathname, useRouter } from "next/navigation";
 
 const FONT = "'Space Grotesk', 'Inter', system-ui, sans-serif";
-const GITHUB_URL = "https://github.com/eslam-cmd";
+const GITHUB_URL = "https://github.com/eslam-hadaya";
 
 export default function Header({ toggleTheme, darkMode }) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

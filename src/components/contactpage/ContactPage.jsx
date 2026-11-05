@@ -138,7 +138,10 @@ export default function ContactPage({ open, onClose }) {
       transition: "all 0.2s ease",
       "& fieldset": { borderColor: colors.border },
       "&:hover fieldset": { borderColor: colors.primary },
-      "&.Mui-focused fieldset": { borderColor: colors.primary, borderWidth: 1.5 },
+      "&.Mui-focused fieldset": {
+        borderColor: colors.primary,
+        borderWidth: 1.5,
+      },
     },
     "& .MuiInputLabel-root": { color: colors.textMuted, fontSize: "0.9rem" },
     "& .MuiInputLabel-root.Mui-focused": { color: colors.primary },
@@ -153,7 +156,7 @@ export default function ContactPage({ open, onClose }) {
     },
     {
       label: "GitHub",
-      href: "https://github.com/eslam-cmd",
+      href: "https://github.com/eslam-hadaya",
       Icon: GitHubIcon,
       color: iconColors.github,
     },
@@ -298,7 +301,9 @@ export default function ContactPage({ open, onClose }) {
                   background: alpha(colors.primary, 0.12),
                 }}
               >
-                <BusinessCenterIcon sx={{ color: colors.primary, fontSize: 22 }} />
+                <BusinessCenterIcon
+                  sx={{ color: colors.primary, fontSize: 22 }}
+                />
               </Box>
               <Box sx={{ flex: 1, minWidth: 0 }}>
                 <Typography
