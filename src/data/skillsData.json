@@ -14,187 +14,213 @@
     "color": "#264de4"
   },
   {
-    "id": 9,
+    "id": 3,
     "title": "JavaScript",
     "icon": "SiJavascript",
     "library": "si",
     "color": "#f7df1e"
   },
   {
-    "id": 14,
+    "id": 4,
     "title": "TypeScript",
     "icon": "SiTypescript",
     "library": "si",
     "color": "#3178c6"
   },
   {
+    "id": 5,
+    "title": "PHP",
+    "icon": "SiPhp",
+    "library": "si",
+    "color": "#777BB4"
+  },
+  {
     "id": 6,
-    "title": "React",
-    "icon": "FaReact",
-    "library": "fa",
-    "color": "#61DBFB"
-  },
-  {
-    "id": 13,
-    "title": "Next.js",
-    "icon": "SiNextdotjs",
-    "library": "si",
-    "color": "#ffffff"
-  },
-  {
-    "id": 20,
-    "title": "React Native",
-    "icon": "SiReact",
-    "library": "si",
-    "color": "#61DBFB"
-  },
-  {
-    "id": 21,
-    "title": "Expo",
-    "icon": "SiExpo",
-    "library": "si",
-    "color": "#000020"
-  },
-  {
-    "id": 10,
-    "title": "MUI",
-    "icon": "SiMui",
-    "library": "si",
-    "color": "#007fff"
-  },
-
-  {
-    "id": 3,
-    "title": "Tailwind",
-    "icon": "SiTailwindcss",
-    "library": "si",
-    "color": "#38bdf8"
-  },
-  {
-    "id": 15,
-    "title": "Node.js",
-    "icon": "FaNodeJs",
-    "library": "fa",
-    "color": "#68a063"
-  },
-  {
-    "id": 16,
-    "title": "Express",
-    "icon": "SiExpress",
-    "library": "si",
-    "color": "#cccccc"
-  },
-  {
-    "id": 26,
-    "title": "Nest.js",
-    "icon": "SiNestjs",
-    "library": "si",
-    "color": "#e0234e"
-  },
-  {
-    "id": 28,
-    "title": "Git",
-    "icon": "SiGit",
-    "library": "si",
-    "color": "#f05032"
-  },
-  {
-    "id": 29,
-    "title": "TypeORM",
-    "icon": "SiTypeorm",
-    "library": "si",
-    "color": "#ff2d20"
-  },
-  {
-    "id": 18,
-    "title": "Supabase",
-    "icon": "SiSupabase",
-    "library": "si",
-    "color": "#2b7fc4ff"
-  },
-  {
-    "id": 17,
-    "title": "PostgreSQL",
-    "icon": "SiPostgresql",
-    "library": "si",
-    "color": "#336791"
-  },
-  {
-    "id": 11,
-    "title": "GitHub",
-    "icon": "FaGithub",
-    "library": "fa",
-    "color": "#cccccc"
-  },
-  {
-    "id": 19,
-    "title": "Postman",
-    "icon": "SiPostman",
-    "library": "si",
-    "color": "#ff6c37"
-  },
-  {
-    "id": 22,
-    "title": "Zustand",
-    "icon": "FaPaw",
-    "library": "fa",
-    "color": "#a0522d"
-  },
-  {
-    "id": 23,
-    "title": "shadcn/ui",
-    "icon": "MdOutlineDashboardCustomize",
-    "library": "md",
-    "color": "#9333ea"
-  },
-  {
-    "id": 24,
-    "title": "Prisma",
-    "icon": "SiPrisma",
-    "library": "si",
-    "color": "#2D3748"
-  },
-  {
-    "id": 25,
-    "title": "Docker",
-    "icon": "SiDocker",
-    "library": "si",
-    "color": "#2496ED"
-  },
-  {
-    "id": 30,
     "title": "Python",
     "icon": "FaPython",
     "library": "fa",
     "color": "#3776AB"
   },
   {
-    "id": 32,
-    "title": "PySide6",
-    "icon": "SiQt",
-    "library": "si",
-    "color": "#90E59A"
+    "id": 7,
+    "title": "React",
+    "icon": "FaReact",
+    "library": "fa",
+    "color": "#61DBFB"
   },
   {
-    "id": 33,
+    "id": 8,
+    "title": "Next.js",
+    "icon": "SiNextdotjs",
+    "library": "si",
+    "color": "#ffffff"
+  },
+  {
+    "id": 9,
+    "title": "Vue.js",
+    "icon": "FaVuejs",
+    "library": "fa",
+    "color": "#4FC08D"
+  },
+  {
+    "id": 10,
+    "title": "Inertia.js",
+    "icon": "SiInertia",
+    "library": "si",
+    "color": "#9553E9"
+  },
+  {
+    "id": 11,
+    "title": "React Native",
+    "icon": "SiReact",
+    "library": "si",
+    "color": "#61DBFB"
+  },
+  {
+    "id": 12,
+    "title": "Expo",
+    "icon": "SiExpo",
+    "library": "si",
+    "color": "#ffffff"
+  },
+  {
+    "id": 13,
+    "title": "Tailwind",
+    "icon": "SiTailwindcss",
+    "library": "si",
+    "color": "#38bdf8"
+  },
+  {
+    "id": 14,
+    "title": "MUI",
+    "icon": "SiMui",
+    "library": "si",
+    "color": "#007fff"
+  },
+  {
+    "id": 15,
+    "title": "shadcn/ui",
+    "icon": "MdOutlineDashboardCustomize",
+    "library": "md",
+    "color": "#9333ea"
+  },
+  {
+    "id": 16,
+    "title": "Zustand",
+    "icon": "FaPaw",
+    "library": "fa",
+    "color": "#a0522d"
+  },
+  {
+    "id": 17,
+    "title": "Node.js",
+    "icon": "FaNodeJs",
+    "library": "fa",
+    "color": "#68a063"
+  },
+  {
+    "id": 18,
+    "title": "Express",
+    "icon": "SiExpress",
+    "library": "si",
+    "color": "#cccccc"
+  },
+  {
+    "id": 19,
+    "title": "Nest.js",
+    "icon": "SiNestjs",
+    "library": "si",
+    "color": "#e0234e"
+  },
+  {
+    "id": 20,
+    "title": "Laravel",
+    "icon": "FaLaravel",
+    "library": "fa",
+    "color": "#FF2D20"
+  },
+  {
+    "id": 21,
+    "title": "PostgreSQL",
+    "icon": "SiPostgresql",
+    "library": "si",
+    "color": "#336791"
+  },
+  {
+    "id": 22,
+    "title": "Prisma",
+    "icon": "SiPrisma",
+    "library": "si",
+    "color": "#5A67D8"
+  },
+  {
+    "id": 23,
+    "title": "TypeORM",
+    "icon": "SiTypeorm",
+    "library": "si",
+    "color": "#fe0803"
+  },
+  {
+    "id": 24,
+    "title": "Supabase",
+    "icon": "SiSupabase",
+    "library": "si",
+    "color": "#3ECF8E"
+  },
+  {
+    "id": 25,
+    "title": "Git",
+    "icon": "SiGit",
+    "library": "si",
+    "color": "#f05032"
+  },
+  {
+    "id": 26,
+    "title": "GitHub",
+    "icon": "FaGithub",
+    "library": "fa",
+    "color": "#cccccc"
+  },
+  {
+    "id": 27,
+    "title": "Docker",
+    "icon": "SiDocker",
+    "library": "si",
+    "color": "#2496ED"
+  },
+  {
+    "id": 28,
     "title": "AWS",
     "icon": "FaAws",
     "library": "fa",
     "color": "#FF9900"
   },
   {
-    "id": 34,
+    "id": 29,
+    "title": "Postman",
+    "icon": "SiPostman",
+    "library": "si",
+    "color": "#ff6c37"
+  },
+  {
+    "id": 30,
     "title": "Jest",
     "icon": "SiJest",
     "library": "si",
     "color": "#C21325"
   },
   {
-    "id": 35,
+    "id": 31,
     "title": "Testing",
     "icon": "SiTestinglibrary",
     "library": "si",
     "color": "#E33332"
+  },
+  {
+    "id": 32,
+    "title": "PySide6",
+    "icon": "SiQt",
+    "library": "si",
+    "color": "#41CD52"
   }
- 
 ]

@@ -34,25 +34,25 @@ const ROW_1 = [
   { icon: "SiJavascript", library: "si" },
   { icon: "FaReact", library: "fa" },
   { icon: "SiNextdotjs", library: "si" },
+  { icon: "FaVuejs", library: "fa" },
+  { icon: "SiInertia", library: "si" },
   { icon: "SiTailwindcss", library: "si" },
   { icon: "SiMui", library: "si" },
-  { icon: "SiPostgresql", library: "si" },
-  { icon: "SiDocker", library: "si" },
-  { icon: "SiAmazonaws", library: "si" },
+  { icon: "SiVercel", library: "si" },
   { icon: "SiGit", library: "si" },
 ];
 
 const ROW_2 = [
   { icon: "FaNodeJs", library: "fa" },
-  { icon: "SiPrisma", library: "si" },
-  { icon: "SiSupabase", library: "si" },
-  { icon: "SiVercel", library: "si" },
   { icon: "SiNestjs", library: "si" },
-  { icon: "SiPython", library: "si" },
-  { icon: "SiDjango", library: "si" },
+  { icon: "SiPhp", library: "si" },
+  { icon: "FaLaravel", library: "fa" },
+  { icon: "SiPostgresql", library: "si" },
+  { icon: "SiPrisma", library: "si" },
   { icon: "SiRedis", library: "si" },
-  { icon: "SiGraphql", library: "si" },
-  { icon: "SiFirebase", library: "si" },
+  { icon: "SiSupabase", library: "si" },
+  { icon: "SiDocker", library: "si" },
+  { icon: "FaAws", library: "fa" },
 ];
 
 // تكرار المصفوفة 4 مرات لضمان عدم وجود فراغات أثناء الحركة

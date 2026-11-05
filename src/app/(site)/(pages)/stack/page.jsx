@@ -54,10 +54,44 @@ const DESCRIPTIONS = {
 // ✅ الأقسام بناءً على المهارات الموجودة في ملفك
 const CATEGORIES = [
   { title: "Programming Languages", items: ["TypeScript", "JavaScript", "Python"] },
-  { title: "Frontend Development", items: ["React", "Next.js", "React Native", "Expo", "MUI", "Tailwind", "Zustand", "shadcn/ui"] },
-  { title: "Backend & Databases", items: ["Node.js", "Express", "Nest.js", "PostgreSQL", "Supabase", "Prisma", "TypeORM"] },
-  { title: "Tools & Infrastructure", items: ["Git", "GitHub", "Docker", "AWS", "Postman", "Testing", "Jest"] },
-];
+  {
+      title: "Frontend Development",
+      items: [
+        "React",
+        "Next.js",
+        "Vue.js",
+        "Inertia.js",
+        "React Native",
+        "Expo",
+        "Tailwind",
+        "MUI",
+        "shadcn/ui",
+        "Zustand",
+      ],
+    },
+    {
+      title: "Backend & Databases",
+      items: [
+        "Node.js",
+        "Express",
+        "Nest.js",
+        "PHP",
+        "Laravel",
+        "PostgreSQL",
+        "Prisma",
+        "TypeORM",
+        "Supabase",
+      ],
+    },
+    {
+      title: "Tools & Infrastructure",
+      items: [
+        "Git",
+        "GitHub",
+        "Docker",
+        "Postman",
+      ],
+    },];
 
 export default function UsesPage({ darkMode = true }) {
   const router = useRouter();
@@ -96,7 +130,7 @@ export default function UsesPage({ darkMode = true }) {
       }}
     >
       <Container maxWidth="md" sx={{ position: "relative", zIndex: 1 }}>
-        
+
         {/* زر الرجوع */}
         <Button
           onClick={() => router.back()}
@@ -133,8 +167,8 @@ export default function UsesPage({ darkMode = true }) {
               lineHeight: 1.15,
               letterSpacing: "-0.03em",
               mb: 3,
-              background: darkMode 
-                ? "linear-gradient(90deg, #F5F5F5 0%, #D4AF37 100%)" 
+              background: darkMode
+                ? "linear-gradient(90deg, #F5F5F5 0%, #D4AF37 100%)"
                 : "linear-gradient(90deg, #0A1F44 0%, #186e96 100%)",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",

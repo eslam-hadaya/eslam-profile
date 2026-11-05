@@ -47,12 +47,19 @@ function Reveal({ children, delay = 0 }) {
 
 const education = [
   {
-    degree: "Vocational High School Diploma in Computer Studies",
-    institution: "Directorate of Education — Vocational & Technical Education",
-    period: "2023 – 2026",
-    description:
-      "Studied core computer science concepts and practical computing, with a focus on programming fundamentals, databases, networking, and software development.",
-  },
+      degree: "Associate Degree in Computer & Software Engineering",
+      institution: "Technical Institute of Computer — University of Aleppo",
+      period: "2026 – 2028 (Present)",
+      description:
+        "Pursuing advanced technical studies in software engineering, system architecture, relational databases, computer networks, and full-stack web application development.",
+    },
+    {
+      degree: "Vocational High School Diploma in Computer Studies",
+      institution: "Directorate of Education — Vocational & Technical Education",
+      period: "2023 – 2026",
+      description:
+        "Studied core computer science concepts and practical computing, with a focus on programming fundamentals, databases, networking, and software development.",
+    },
 ];
 
 const aboutParagraphs = [
