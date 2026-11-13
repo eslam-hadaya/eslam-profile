@@ -287,7 +287,7 @@ I can help you explore:
         position: "relative",
         overflow: "hidden",
         minHeight: "100vh",
-        background: "transparent", // يحافظ على خلفية الموقع
+        background: "transparent",
         fontFamily: FONT,
         color: "var(--hero-text-color)",
         "& .MuiTypography-root, & .MuiButton-root": { fontFamily: FONT },
